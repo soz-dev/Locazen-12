@@ -12,6 +12,7 @@
 		D1AB805B29990A1E00590213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1AB805A29990A1E00590213 /* Assets.xcassets */; };
 		D1AB805E29990A1E00590213 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1AB805D29990A1E00590213 /* Preview Assets.xcassets */; };
 		D1AB806729990B2800590213 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB806629990B2800590213 /* MapView.swift */; };
+		D1AB806B29990B8C00590213 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB806A29990B8C00590213 /* CustomColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		D1AB806629990B2800590213 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		D1AB806829990B6600590213 /* DancingScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Regular.ttf"; sourceTree = "<group>"; };
 		D1AB806929990B6900590213 /* NotoSansJP-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Light.otf"; sourceTree = "<group>"; };
+		D1AB806A29990B8C00590213 /* CustomColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				D1AB806829990B6600590213 /* DancingScript-Regular.ttf */,
 				D1AB806929990B6900590213 /* NotoSansJP-Light.otf */,
 				D1AB806629990B2800590213 /* MapView.swift */,
+				D1AB806A29990B8C00590213 /* CustomColor.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			files = (
 				D1AB805929990A1B00590213 /* ContentView.swift in Sources */,
 				D1AB806729990B2800590213 /* MapView.swift in Sources */,
+				D1AB806B29990B8C00590213 /* CustomColor.swift in Sources */,
 				D1AB805729990A1B00590213 /* Locazen_12App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
