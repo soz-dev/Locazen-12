@@ -21,6 +21,8 @@
 		D1AB805A29990A1E00590213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1AB805D29990A1E00590213 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D1AB806629990B2800590213 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		D1AB806829990B6600590213 /* DancingScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Regular.ttf"; sourceTree = "<group>"; };
+		D1AB806929990B6900590213 /* NotoSansJP-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Light.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,8 @@
 		D1AB806529990AA500590213 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				D1AB806829990B6600590213 /* DancingScript-Regular.ttf */,
+				D1AB806929990B6900590213 /* NotoSansJP-Light.otf */,
 				D1AB806629990B2800590213 /* MapView.swift */,
 			);
 			path = Custom;
