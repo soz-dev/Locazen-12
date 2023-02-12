@@ -15,6 +15,7 @@
 		D1AB806B29990B8C00590213 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB806A29990B8C00590213 /* CustomColor.swift */; };
 		D1AB806D29990BB200590213 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB806C29990BB200590213 /* Home.swift */; };
 		D1AB806F29990BC800590213 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB806E29990BC800590213 /* Services.swift */; };
+		D1AB807129990BDE00590213 /* Rate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB807029990BDE00590213 /* Rate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		D1AB806A29990B8C00590213 /* CustomColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 		D1AB806C29990BB200590213 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		D1AB806E29990BC800590213 /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		D1AB807029990BDE00590213 /* Rate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			children = (
 				D1AB806C29990BB200590213 /* Home.swift */,
 				D1AB806E29990BC800590213 /* Services.swift */,
+				D1AB807029990BDE00590213 /* Rate.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				D1AB805929990A1B00590213 /* ContentView.swift in Sources */,
 				D1AB806F29990BC800590213 /* Services.swift in Sources */,
 				D1AB806729990B2800590213 /* MapView.swift in Sources */,
+				D1AB807129990BDE00590213 /* Rate.swift in Sources */,
 				D1AB806D29990BB200590213 /* Home.swift in Sources */,
 				D1AB806B29990B8C00590213 /* CustomColor.swift in Sources */,
 				D1AB805729990A1B00590213 /* Locazen_12App.swift in Sources */,
