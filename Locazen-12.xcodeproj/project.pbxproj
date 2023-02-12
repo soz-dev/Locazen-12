@@ -18,6 +18,7 @@
 		D1AB807129990BDE00590213 /* Rate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB807029990BDE00590213 /* Rate.swift */; };
 		D1AB807329990BF500590213 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB807229990BF500590213 /* Mail.swift */; };
 		D1AB807529990C0A00590213 /* Partners.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB807429990C0A00590213 /* Partners.swift */; };
+		D1AB807729990C1F00590213 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1AB807629990C1F00590213 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		D1AB807029990BDE00590213 /* Rate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rate.swift; sourceTree = "<group>"; };
 		D1AB807229990BF500590213 /* Mail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mail.swift; sourceTree = "<group>"; };
 		D1AB807429990C0A00590213 /* Partners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Partners.swift; sourceTree = "<group>"; };
+		D1AB807629990C1F00590213 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				D1AB806529990AA500590213 /* Custom */,
 				D1AB806429990A9800590213 /* Pages */,
 				D1AB805A29990A1E00590213 /* Assets.xcassets */,
+				D1AB807629990C1F00590213 /* Launch Screen.storyboard */,
 				D1AB805C29990A1E00590213 /* Preview Content */,
 			);
 			path = "Locazen-12";
@@ -166,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1AB807729990C1F00590213 /* Launch Screen.storyboard in Resources */,
 				D1AB805E29990A1E00590213 /* Preview Assets.xcassets in Resources */,
 				D1AB805B29990A1E00590213 /* Assets.xcassets in Resources */,
 			);
