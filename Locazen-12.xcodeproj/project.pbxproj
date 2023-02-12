@@ -20,6 +20,8 @@
 		D1AB807529990C0A00590213 /* Partners.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB807429990C0A00590213 /* Partners.swift */; };
 		D1AB807729990C1F00590213 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1AB807629990C1F00590213 /* Launch Screen.storyboard */; };
 		D1AB807929990C8300590213 /* LogoLocazen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB807829990C8300590213 /* LogoLocazen.swift */; };
+		D1AB807C29990D9300590213 /* DancingScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1AB806829990B6600590213 /* DancingScript-Regular.ttf */; };
+		D1AB807D29990D9600590213 /* NotoSansJP-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D1AB806929990B6900590213 /* NotoSansJP-Light.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -173,6 +175,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1AB807729990C1F00590213 /* Launch Screen.storyboard in Resources */,
+				D1AB807C29990D9300590213 /* DancingScript-Regular.ttf in Resources */,
+				D1AB807D29990D9600590213 /* NotoSansJP-Light.otf in Resources */,
 				D1AB805E29990A1E00590213 /* Preview Assets.xcassets in Resources */,
 				D1AB805B29990A1E00590213 /* Assets.xcassets in Resources */,
 			);
@@ -326,8 +330,8 @@
 				DEVELOPMENT_TEAM = 69N585LAQZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Locazen-12/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -357,8 +361,8 @@
 				DEVELOPMENT_TEAM = 69N585LAQZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Locazen-12/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (

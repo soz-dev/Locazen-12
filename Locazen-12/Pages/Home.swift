@@ -41,7 +41,7 @@ struct Home: View {
                     Spacer()
                     
                     Text("Conciergerie basée à Sète, nous sommes ravis de vous proposer nos services de conciergerie. Vous pouvez retrouver sur notre application toutes les informations vous permettant de nous confier la gestion de votre appartement en toute sérénité.")
-                        .multilineTextAlignment(.leading)
+                        .padding()
                 }
                 .padding()
                 Divider()
@@ -54,7 +54,6 @@ struct Home: View {
                         .border(.black)
                     
                     Text("Je m'appelle Myriam de la Conciergerie LocaZen et c'est moi qui aurai le plaisir de vous accueillir sur Sète. Je suis mandatée pour préparer votre venue et faire en sorte que votre séjour soit inoubliable. Les propriétaires sont charmants et ont fait le maximum pour vous offrir un appartement agréable et fonctionnel. Je serai disponible durant votre séjour pour toute question technique ou pour toute information. Au plaisir de vous accueillir. ")
-                        .multilineTextAlignment(.leading)
                         .padding()
                     
                         Button(action: {})  {
@@ -89,15 +88,11 @@ struct Home: View {
                         .padding()
                     
                     Text("Nous nous déplaçons en Ville ou dans tout quartier de Sète, y compris ses bords de plage ( Lazaret, Corniche, La Baleine, Villeroy ...)\nVéhiculés, nous sommes situés en plein centre ville.")
-                        .multilineTextAlignment(.leading)
        
                     Spacer()
-                    
-                    
                 }
                 
                 .padding()
-                
             }
      
         }
@@ -112,15 +107,10 @@ struct Home: View {
                     .border(.black)
                 
                 Text("Vous pouvez retrouver sur notre application les informations concernant la conciergerie de Sete. Myriam et son équipe s'engagent à vous fournir une excellente qualité de services.")
-                    .multilineTextAlignment(.leading)
-
                 
                 Spacer()
-                
-                
             }
             .padding()
-            
     }
         .font(Font.custom("NotoSansJP-Light", size: 19))
         .foregroundColor(.black)

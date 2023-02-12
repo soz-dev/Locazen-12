@@ -104,6 +104,7 @@ struct Partners: View {
                 }
                 .padding()
             }
+            .font(Font.custom("NotoSansJP-Light", size: 19))
             .background(.white)
         }
         .foregroundColor(.black)
