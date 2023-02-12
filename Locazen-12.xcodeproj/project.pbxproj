@@ -19,6 +19,7 @@
 		D1AB807329990BF500590213 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB807229990BF500590213 /* Mail.swift */; };
 		D1AB807529990C0A00590213 /* Partners.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB807429990C0A00590213 /* Partners.swift */; };
 		D1AB807729990C1F00590213 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1AB807629990C1F00590213 /* Launch Screen.storyboard */; };
+		D1AB807929990C8300590213 /* LogoLocazen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB807829990C8300590213 /* LogoLocazen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		D1AB807229990BF500590213 /* Mail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mail.swift; sourceTree = "<group>"; };
 		D1AB807429990C0A00590213 /* Partners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Partners.swift; sourceTree = "<group>"; };
 		D1AB807629990C1F00590213 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D1AB807829990C8300590213 /* LogoLocazen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoLocazen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				D1AB806829990B6600590213 /* DancingScript-Regular.ttf */,
 				D1AB806929990B6900590213 /* NotoSansJP-Light.otf */,
 				D1AB806629990B2800590213 /* MapView.swift */,
+				D1AB807829990C8300590213 /* LogoLocazen.swift */,
 				D1AB806A29990B8C00590213 /* CustomColor.swift */,
 			);
 			path = Custom;
@@ -185,6 +188,7 @@
 				D1AB807329990BF500590213 /* Mail.swift in Sources */,
 				D1AB805929990A1B00590213 /* ContentView.swift in Sources */,
 				D1AB806F29990BC800590213 /* Services.swift in Sources */,
+				D1AB807929990C8300590213 /* LogoLocazen.swift in Sources */,
 				D1AB806729990B2800590213 /* MapView.swift in Sources */,
 				D1AB807129990BDE00590213 /* Rate.swift in Sources */,
 				D1AB806D29990BB200590213 /* Home.swift in Sources */,
