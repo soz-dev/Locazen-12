@@ -9,13 +9,62 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            Home()
+                .tabItem {
+                    Image(systemName: "house.fill")
+                    Text("Accueil")
+                }
+                .toolbar(.visible, for: .tabBar)
+                .toolbarBackground(
+                    Color.black,
+                    for: .tabBar)
+                .onAppear() {
+                    UIScrollView.appearance().contentInsetAdjustmentBehavior = .never
+                    UITableView.appearance().tableHeaderView = UIView(frame: CGRect(x: 0, y: 0, width: 0, height: CGFloat.leastNormalMagnitude))
+                }
+            
+            Services()
+                .tabItem {
+                    Image(systemName: "figure.walk")
+                    Text("Services")
+                }
+                .toolbar(.visible, for: .tabBar)
+                .toolbarBackground(
+                    Color.black,
+                    for: .tabBar)
+              
+            Rate()
+                .tabItem {
+                    Image(systemName: "eurosign")
+                    Text("Tarifs")
+                }
+                .toolbar(.visible, for: .tabBar)
+                .toolbarBackground(
+                    Color.black,
+                    for: .tabBar)
+            
+            Mail()
+                .tabItem {
+                    Image(systemName: "envelope.fill")
+                    Text("Contact")
+                }
+                .toolbar(.visible, for: .tabBar)
+                .toolbarBackground(
+                    Color.black,
+                    for: .tabBar)
+            
+            Partners()
+                .tabItem {
+                    Image(systemName: "figure.2.arms.open")
+                    Text("Partenaires")
+                }
+                .toolbar(.visible, for: .tabBar)
+                .toolbarBackground(
+                    Color.black,
+                    for: .tabBar)
         }
-        .padding()
+        .accentColor(.orange)
     }
 }
 
