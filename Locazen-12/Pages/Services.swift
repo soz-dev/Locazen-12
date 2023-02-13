@@ -1,14 +1,14 @@
 //
-//  ServicesView.swift
-//  TestApp
+//  Services.swift
+//  Locazen-12
 //
-//  Created by SofyanZ on 08/12/2022.
+//  Created by Sofyan Zarouri on 07/12/2022.
+//  Copyright © 2022 Sofyan Zarouri. All rights reserved.
 //
 
 import SwiftUI
 
 struct Services: View {
-    
     var body: some View {
         ScrollView {
             VStack {
@@ -18,7 +18,6 @@ struct Services: View {
                         .scaledToFill()
                         .border(Color(UIColor.darkGray))
                         .aspectRatio(contentMode: .fit)
-                    
                 }
                 
                 LogoLocazen()
@@ -34,6 +33,7 @@ struct Services: View {
                         .font(.title)
                         .fontWeight(.bold)
                         .foregroundColor(.white)
+                    
                     Text("• Vérification et/ou planification de vos locations saisonnières (Airbnb - Booking)\n• Confirmation de vos réservations \n• Gestion des lieux durant la vacance du logement")
                         .lineLimit(nil)
                         .padding()
