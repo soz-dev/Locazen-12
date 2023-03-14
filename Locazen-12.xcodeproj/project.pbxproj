@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D14BD26829C10FE5008B8BCB /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14BD26729C10FE5008B8BCB /* LocationsDataService.swift */; };
+		D14BD26B29C1104B008B8BCB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14BD26A29C1104B008B8BCB /* Location.swift */; };
 		D1AB805729990A1B00590213 /* Locazen_12App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB805629990A1B00590213 /* Locazen_12App.swift */; };
 		D1AB805929990A1B00590213 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB805829990A1B00590213 /* ContentView.swift */; };
 		D1AB805B29990A1E00590213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1AB805A29990A1E00590213 /* Assets.xcassets */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D14BD26729C10FE5008B8BCB /* LocationsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		D14BD26A29C1104B008B8BCB /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		D1AB805329990A1B00590213 /* Locazen-12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Locazen-12.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1AB805629990A1B00590213 /* Locazen_12App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locazen_12App.swift; sourceTree = "<group>"; };
 		D1AB805829990A1B00590213 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +58,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D14BD26629C10FAC008B8BCB /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				D14BD26729C10FE5008B8BCB /* LocationsDataService.swift */,
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+		D14BD26929C1102B008B8BCB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D14BD26A29C1104B008B8BCB /* Location.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D1AB804A29990A1B00590213 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +95,8 @@
 			children = (
 				D1AB805629990A1B00590213 /* Locazen_12App.swift */,
 				D1AB805829990A1B00590213 /* ContentView.swift */,
+				D14BD26929C1102B008B8BCB /* Model */,
+				D14BD26629C10FAC008B8BCB /* DataServices */,
 				D1AB806529990AA500590213 /* Custom */,
 				D1AB806429990A9800590213 /* Pages */,
 				D1AB805A29990A1E00590213 /* Assets.xcassets */,
@@ -196,8 +218,10 @@
 				D1AB806729990B2800590213 /* MapView.swift in Sources */,
 				D1AB807129990BDE00590213 /* Rate.swift in Sources */,
 				D1AB806D29990BB200590213 /* Home.swift in Sources */,
+				D14BD26829C10FE5008B8BCB /* LocationsDataService.swift in Sources */,
 				D1AB806B29990B8C00590213 /* CustomColor.swift in Sources */,
 				D1AB807529990C0A00590213 /* Partners.swift in Sources */,
+				D14BD26B29C1104B008B8BCB /* Location.swift in Sources */,
 				D1AB805729990A1B00590213 /* Locazen_12App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

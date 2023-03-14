@@ -14,7 +14,7 @@ struct Home: View {
         VStack {
             MapView()
                 .edgesIgnoringSafeArea(.top)
-                .frame(width: 400, height: 320)
+                .frame(height: 320)
                 .border(Color(UIColor.darkGray))
                 .background(Color.pink.frame(maxWidth: .infinity))
                 .ignoresSafeArea(edges: .top)
@@ -109,7 +109,6 @@ struct Home: View {
                 
                 Text("Vous pouvez retrouver sur notre application les informations concernant la conciergerie de Sete. Myriam et son équipe s'engagent à vous fournir une excellente qualité de services.")
                 
-                Spacer()
             }
             .padding()
     }

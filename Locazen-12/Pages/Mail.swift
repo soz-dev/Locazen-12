@@ -43,7 +43,7 @@ struct Mail: View {
                     
                     
                     Button(action: {
-                        let email = "mailto:soza@live.fr?subject=Demande%20D'informations&body=Votre%20Message:"
+                        let email = "mailto:fataliahh@hotmail.fr?subject=Demande%20D'informations&body=Votre%20Message:"
                         UIApplication.shared.open(URL(string: email)!)
                     }) {
                         Text("Envoyer un mail")
