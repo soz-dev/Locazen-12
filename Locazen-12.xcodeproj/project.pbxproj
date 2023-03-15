@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D1452C0A29C144B6001C09F1 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1452C0929C144B6001C09F1 /* LocationMapAnnotationView.swift */; };
+		D1452C0C29C14524001C09F1 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1452C0B29C14524001C09F1 /* LocationPreviewView.swift */; };
 		D14BD26829C10FE5008B8BCB /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14BD26729C10FE5008B8BCB /* LocationsDataService.swift */; };
 		D14BD26B29C1104B008B8BCB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14BD26A29C1104B008B8BCB /* Location.swift */; };
 		D1AB805729990A1B00590213 /* Locazen_12App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB805629990A1B00590213 /* Locazen_12App.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		D1452C0929C144B6001C09F1 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		D1452C0B29C14524001C09F1 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		D14BD26729C10FE5008B8BCB /* LocationsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		D14BD26A29C1104B008B8BCB /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		D1AB805329990A1B00590213 /* Locazen-12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Locazen-12.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +83,7 @@
 			children = (
 				D1AB806429990A9800590213 /* Pages */,
 				D1452C0929C144B6001C09F1 /* LocationMapAnnotationView.swift */,
+				D1452C0B29C14524001C09F1 /* LocationPreviewView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				D1AB805929990A1B00590213 /* ContentView.swift in Sources */,
 				D1AB806F29990BC800590213 /* Services.swift in Sources */,
 				D1AB807929990C8300590213 /* LogoLocazen.swift in Sources */,
+				D1452C0C29C14524001C09F1 /* LocationPreviewView.swift in Sources */,
 				D1AB806729990B2800590213 /* MapView.swift in Sources */,
 				D1AB807129990BDE00590213 /* Rate.swift in Sources */,
 				D1AB806D29990BB200590213 /* Home.swift in Sources */,
