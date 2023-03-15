@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject private var vm = LocationsViewModel()
-
+    
     
     var body: some View {
         TabView {
@@ -38,26 +38,6 @@ struct ContentView: View {
                 .toolbarBackground(
                     Color.white,
                     for: .tabBar)
-              
-            Rate()
-                .tabItem {
-                    Image(systemName: "eurosign")
-                    Text("Tarifs")
-                }
-                .toolbar(.visible, for: .tabBar)
-                .toolbarBackground(
-                    Color.white,
-                    for: .tabBar)
-            
-            Mail()
-                .tabItem {
-                    Image(systemName: "envelope.fill")
-                    Text("Contact")
-                }
-                .toolbar(.visible, for: .tabBar)
-                .toolbarBackground(
-                    Color.white,
-                    for: .tabBar)
             
             LocationsView()
                 .environmentObject(vm)
@@ -70,8 +50,29 @@ struct ContentView: View {
                     Color.white,
                     for: .tabBar)
             
+            
+            Mail()
+                .tabItem {
+                    Image(systemName: "envelope.fill")
+                    Text("Contact")
+                }
+                .toolbar(.visible, for: .tabBar)
+                .toolbarBackground(
+                    Color.white,
+                    for: .tabBar)
+            
+            Rate()
+                .tabItem {
+                    Image(systemName: "eurosign")
+                    Text("Tarifs")
+                }
+                .toolbar(.visible, for: .tabBar)
+                .toolbarBackground(
+                    Color.white,
+                    for: .tabBar)
+            
         }
-        .accentColor(CustomColor.myColorBlue)
+        .accentColor(CustomColor.myColorPink)
         .background(Color.white)
     }
 }
@@ -80,6 +81,6 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
             .background(Color.white)
-
+        
     }
 }
