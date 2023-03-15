@@ -12,6 +12,7 @@
 		D1452C0E29C1459C001C09F1 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1452C0D29C1459C001C09F1 /* LocationsListView.swift */; };
 		D1452C1029C145DF001C09F1 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1452C0F29C145DF001C09F1 /* LocationDetailView.swift */; };
 		D1452C1229C14639001C09F1 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1452C1129C14639001C09F1 /* LocationsView.swift */; };
+		D1452C1529C14693001C09F1 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1452C1429C14693001C09F1 /* LocationsViewModel.swift */; };
 		D14BD26829C10FE5008B8BCB /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14BD26729C10FE5008B8BCB /* LocationsDataService.swift */; };
 		D14BD26B29C1104B008B8BCB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14BD26A29C1104B008B8BCB /* Location.swift */; };
 		D1AB805729990A1B00590213 /* Locazen_12App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB805629990A1B00590213 /* Locazen_12App.swift */; };
@@ -37,6 +38,7 @@
 		D1452C0D29C1459C001C09F1 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 		D1452C0F29C145DF001C09F1 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 		D1452C1129C14639001C09F1 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationsView.swift; path = "../Preview Content/LocationsView.swift"; sourceTree = "<group>"; };
+		D1452C1429C14693001C09F1 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		D14BD26729C10FE5008B8BCB /* LocationsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		D14BD26A29C1104B008B8BCB /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		D1AB805329990A1B00590213 /* Locazen-12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Locazen-12.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +70,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D1452C1329C14671001C09F1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D1452C1429C14693001C09F1 /* LocationsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		D14BD26629C10FAC008B8BCB /* DataServices */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +128,7 @@
 			children = (
 				D1AB805629990A1B00590213 /* Locazen_12App.swift */,
 				D1AB805829990A1B00590213 /* ContentView.swift */,
+				D1452C1329C14671001C09F1 /* ViewModels */,
 				D14BD26C29C11161008B8BCB /* View */,
 				D14BD26929C1102B008B8BCB /* Model */,
 				D14BD26629C10FAC008B8BCB /* DataServices */,
@@ -247,6 +258,7 @@
 				D1452C1029C145DF001C09F1 /* LocationDetailView.swift in Sources */,
 				D1452C1229C14639001C09F1 /* LocationsView.swift in Sources */,
 				D14BD26829C10FE5008B8BCB /* LocationsDataService.swift in Sources */,
+				D1452C1529C14693001C09F1 /* LocationsViewModel.swift in Sources */,
 				D1AB806B29990B8C00590213 /* CustomColor.swift in Sources */,
 				D1AB807529990C0A00590213 /* Partners.swift in Sources */,
 				D14BD26B29C1104B008B8BCB /* Location.swift in Sources */,
