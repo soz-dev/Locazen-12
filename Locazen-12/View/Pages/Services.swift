@@ -71,6 +71,8 @@ struct Services: View {
                         .multilineTextAlignment(.center)
                         .padding()
                 }
+                
+                Partners()
             }
             .font(Font.custom("NotoSansJP-Light", size: 19))
             .background(.white)

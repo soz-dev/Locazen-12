@@ -9,16 +9,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var vm = LocationsViewModel()
+
+    
     var body: some View {
         TabView {
             Home()
+                .frame(width: 0.0)
                 .tabItem {
                     Image(systemName: "house.fill")
                     Text("Accueil")
                 }
                 .toolbar(.visible, for: .tabBar)
                 .toolbarBackground(
-                    Color.black,
+                    Color.white,
                     for: .tabBar)
                 .onAppear() {
                     UIScrollView.appearance().contentInsetAdjustmentBehavior = .never
@@ -32,7 +36,7 @@ struct ContentView: View {
                 }
                 .toolbar(.visible, for: .tabBar)
                 .toolbarBackground(
-                    Color.black,
+                    Color.white,
                     for: .tabBar)
               
             Rate()
@@ -42,7 +46,7 @@ struct ContentView: View {
                 }
                 .toolbar(.visible, for: .tabBar)
                 .toolbarBackground(
-                    Color.black,
+                    Color.white,
                     for: .tabBar)
             
             Mail()
@@ -52,25 +56,30 @@ struct ContentView: View {
                 }
                 .toolbar(.visible, for: .tabBar)
                 .toolbarBackground(
-                    Color.black,
+                    Color.white,
                     for: .tabBar)
             
-            Partners()
+            LocationsView()
+                .environmentObject(vm)
                 .tabItem {
-                    Image(systemName: "figure.2.arms.open")
-                    Text("Partenaires")
+                    Image(systemName: "map")
+                    Text("Carte")
                 }
                 .toolbar(.visible, for: .tabBar)
                 .toolbarBackground(
-                    Color.black,
+                    Color.white,
                     for: .tabBar)
+            
         }
-        .accentColor(.orange)
+        .accentColor(CustomColor.myColorBlue)
+        .background(Color.white)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .background(Color.white)
+
     }
 }
