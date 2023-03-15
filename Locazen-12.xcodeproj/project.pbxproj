@@ -10,6 +10,7 @@
 		D1452C0A29C144B6001C09F1 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1452C0929C144B6001C09F1 /* LocationMapAnnotationView.swift */; };
 		D1452C0C29C14524001C09F1 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1452C0B29C14524001C09F1 /* LocationPreviewView.swift */; };
 		D1452C0E29C1459C001C09F1 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1452C0D29C1459C001C09F1 /* LocationsListView.swift */; };
+		D1452C1029C145DF001C09F1 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1452C0F29C145DF001C09F1 /* LocationDetailView.swift */; };
 		D14BD26829C10FE5008B8BCB /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14BD26729C10FE5008B8BCB /* LocationsDataService.swift */; };
 		D14BD26B29C1104B008B8BCB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14BD26A29C1104B008B8BCB /* Location.swift */; };
 		D1AB805729990A1B00590213 /* Locazen_12App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB805629990A1B00590213 /* Locazen_12App.swift */; };
@@ -33,6 +34,7 @@
 		D1452C0929C144B6001C09F1 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
 		D1452C0B29C14524001C09F1 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		D1452C0D29C1459C001C09F1 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		D1452C0F29C145DF001C09F1 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 		D14BD26729C10FE5008B8BCB /* LocationsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		D14BD26A29C1104B008B8BCB /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		D1AB805329990A1B00590213 /* Locazen-12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Locazen-12.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +89,7 @@
 				D1452C0929C144B6001C09F1 /* LocationMapAnnotationView.swift */,
 				D1452C0B29C14524001C09F1 /* LocationPreviewView.swift */,
 				D1452C0D29C1459C001C09F1 /* LocationsListView.swift */,
+				D1452C0F29C145DF001C09F1 /* LocationDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				D1AB807129990BDE00590213 /* Rate.swift in Sources */,
 				D1AB806D29990BB200590213 /* Home.swift in Sources */,
 				D1452C0A29C144B6001C09F1 /* LocationMapAnnotationView.swift in Sources */,
+				D1452C1029C145DF001C09F1 /* LocationDetailView.swift in Sources */,
 				D14BD26829C10FE5008B8BCB /* LocationsDataService.swift in Sources */,
 				D1AB806B29990B8C00590213 /* CustomColor.swift in Sources */,
 				D1AB807529990C0A00590213 /* Partners.swift in Sources */,
